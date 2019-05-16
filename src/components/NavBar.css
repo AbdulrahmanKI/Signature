@@ -1,12 +1,13 @@
 
-
+.nav-brand-img {
+    max-width: 100px;
+}
 h2{
     font-family: Kodchasan;
-    font-size: 2em;
-    font-weight: bold;
     color : #0084BD;
     align-self: center;
     display: inline;
+    border-left:0px  ;
 
 }
 

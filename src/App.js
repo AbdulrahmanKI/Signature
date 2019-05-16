@@ -1,17 +1,18 @@
 import React from 'react';
 import NavBar from "./components/NavBar"
 import './App.css';
-import HeaderBanner from "./components/HeaderBanner";
-import InputForm from "./components/InputForm";
+
+import Preview from "./components/Preview";
+
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <HeaderBanner/>
 
       <div>
-          <InputForm/>
+          <Preview/>
+         
       </div>
     </div>
   );
