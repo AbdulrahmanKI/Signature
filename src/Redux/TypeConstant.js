@@ -7,4 +7,9 @@ export const TypeConstant = {
     WebSite:'WEBSITE',
     Image:'IMAGE',
 
+    Linkedin: 'LINKEDIN',
+    Twitter:'TWITTER',
+    Facebook:'FACEBOOK',
+    Github:'GITHUB'
+
 }

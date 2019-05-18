@@ -15,10 +15,10 @@ class SignatureDesign extends Component {
                     <img width={98} height={110} src={this.props.imageName} className="mt-2 mx-auto d-block"/>
                     </div>
                     <Row className="mt-2 mx-auto my-0">
-                        <Col xs={2}><FontAwesomeIcon style={{color:"#0077B5"}} icon={['fab', 'linkedin']}/></Col>
-                        <Col xs={2}><FontAwesomeIcon style={{color:"#1DA1F2"}} icon={['fab', 'twitter']}/></Col>
-                        <Col xs={2}><FontAwesomeIcon style={{color:"#3B5998"}} icon={['fab', 'facebook']}/></Col>
-                        <Col xs={2}><FontAwesomeIcon style={{color:"#24292E"}} icon={['fab', 'github']}/></Col>
+                        <Col xs={2}><a target="_blank" href={this.props.linkedin}><FontAwesomeIcon style={{color:"#0077B5"}} icon={['fab', 'linkedin']}/></a></Col>
+                        <Col xs={2}><a target="_blank" href={this.props.twitter}><FontAwesomeIcon style={{color:"#1DA1F2"}} icon={['fab', 'twitter']}/></a></Col>
+                        <Col xs={2}><a target="_blank" href={this.props.facebook}><FontAwesomeIcon style={{color:"#3B5998"}} icon={['fab', 'facebook']}/></a></Col>
+                        <Col xs={2}><a target="_blank" href={this.props.github}><FontAwesomeIcon style={{color:"#24292E"}} icon={['fab', 'github']}/></a></Col>
                     </Row>
                 </Col>
                 <Col lg={7} className="mr-3">
@@ -45,6 +45,10 @@ function mapStateToProps(state) {
         mobile:state.reducer.mobile,
         website:state.reducer.website,
         imageName : state.imageReducer.image,
+        linkedin : state.socialReducer.linkedin,
+        twitter : state.socialReducer.twitter,
+        facebook : state.socialReducer.facebook,
+        github : state.socialReducer.github,
     }
 }
 

@@ -45,3 +45,31 @@ export const ImageLogo = (image)=>{
         payload: image
     }
 }
+
+export const Linkedin = (linkedin)=>{
+    return {
+        type: TypeConstant.Linkedin,
+        payload: linkedin
+    }
+}
+
+export const Twitter = (twitter)=>{
+    return {
+        type: TypeConstant.Twitter,
+        payload: twitter
+    }
+}
+
+export const Facebook = (facebook)=>{
+    return {
+        type: TypeConstant.Facebook,
+        payload: facebook
+    }
+}
+
+export const Github = (github)=>{
+    return {
+        type: TypeConstant.Github,
+        payload: github
+    }
+}
