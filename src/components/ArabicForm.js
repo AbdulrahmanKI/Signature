@@ -4,7 +4,7 @@ import {Form, Col, Row} from 'react-bootstrap';
 class ArabicForm extends Component {
   render() {
     return (
-      <Form className="mt-2 justify border border-secondary rounded-sm p-1 ">
+      <Form className="mt-2 justify   p-1 ">
         <Form.Group as={Row} controlId="formPlaintextName">
           <Col sm="7">
             <Form.Control className="text-right" type="text" placeholder="...محمد"/>
@@ -34,7 +34,7 @@ class ArabicForm extends Component {
 
         <Form.Group as={Row} controlId="formPlaintextMobile">
           <Col sm="7">
-            <Form.Control className="text-right" type="tel" placeholder="0555555555"/>
+            <Form.Control className="text-right" type="tel" placeholder="05xxxxxxxx"/>
           </Col>
           < Form.Label className="text-right" column sm="5">
             الجوال

@@ -13,7 +13,7 @@ class NavBar extends Component {
 
   render() {
     return (
-      <Navbar>
+      <Navbar className="bg-light">
         <Container>
           <Navbar.Brand href="#">
             <img alt="" src="/ksu-logo.png" className="nav-brand-img"/>

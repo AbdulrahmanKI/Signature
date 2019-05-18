@@ -1,0 +1,52 @@
+.active{
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+
+.nav-link{
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: #6C757D;
+    color: white;
+}
+
+
+/*#noanim-tab-example-tab-general:focus{*/
+/*    background-color: #ebedf3;*/
+/*    border: 1px solid black;*/
+/*    color: #1e1e1e;*/
+/*}*/
+
+/* #noanim-tab-example-tab-social:focus {*/
+/*     background-color: #ebedf3;*/
+/*     border: 1px solid black;*/
+/*     color: #1e1e1e;*/
+/*}*/
+
+/*#noanim-tab-example-tab-image:focus{*/
+/*    background-color: #ebedf3;*/
+/*    border: 1px solid black;*/
+/*    color: #1e1e1e;*/
+/*}*/
+
+/*#noanim-tab-example-tab-style{*/
+/*    color: #1e1e1e;*/
+/*}*/
+
+/*#noanim-tab-example-tab-english{*/
+/*    background-color: #ebedf3;*/
+/*    border: 1px solid black;*/
+/*    color: #1e1e1e;*/
+/*}*/
+
+/*#noanim-tab-example-tab-arabic{*/
+/*    background-color: #ebedf3;*/
+/*    border: 1px solid black;*/
+/*    color: #1e1e1e;*/
+/*}*/
+
+/*color: #1e1e1e;*/

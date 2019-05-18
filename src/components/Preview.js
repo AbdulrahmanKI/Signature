@@ -6,8 +6,9 @@ import {
   Card,
   ListGroup
 } from 'react-bootstrap';
-import Tabs from './Tabs'
+import TabComponent from './TabComponent'
 import "./Preview.css";
+import SignatureDesign from "./SignatureDesign";
 
 class Preview extends Component {
 
@@ -17,15 +18,16 @@ class Preview extends Component {
         <Container>
           <Row>
             <Col lg="5">
-              <Tabs/>
+              <TabComponent/>
             </Col>
             <Col lg="7">
               <Card>
-                <Card.Header>Preview</Card.Header>
+                <Card.Header className="bg-dark" style={{color:"white"}}>Preview</Card.Header>
                 <ListGroup variant="flush">
                   <ListGroup.Item>To: jhon-doe@email.com</ListGroup.Item>
                   <ListGroup.Item>Subject: Check my email signature</ListGroup.Item>
                   <ListGroup.Item>Hi David,<br/>Check out this awesome email signature created with MySignature<br/>Regards,</ListGroup.Item>
+                  <SignatureDesign/>
                 </ListGroup>
               </Card>
             </Col>

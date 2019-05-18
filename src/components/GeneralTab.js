@@ -1,29 +1,27 @@
 import React, {Component} from 'react'
-import {Nav,Tab} from 'react-bootstrap';
+import {Container, Tab, Tabs} from 'react-bootstrap';
 import EnglishForm from "./EnglishForm";
 import ArabicForm from "./ArabicForm";
 
 class GeneralTab extends Component {
+
+
+
   render() {
     return (
-      <Tab.Container>
-        <Nav justify variant="tabs" defaultActiveKey="english">
-          <Nav.Item>
-            <Nav.Link eventKey="english">English</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="arabic">العربية</Nav.Link>
-          </Nav.Item>
-        </Nav>
-        <Tab.Content>
-          <Tab.Pane eventKey="english">
+        <Container >
+          <Tabs justify defaultActiveKey="english" className="bg-secondary border border-dark rounded-top mt-1 "  transition={false} id="noanim-tab-example">
+
+            <Tab  eventKey="english" className="border-0 rounded-0" title="English">
             <EnglishForm/>
-          </Tab.Pane>
-          <Tab.Pane eventKey="arabic">
-           <ArabicForm/>
-          </Tab.Pane>
-        </Tab.Content>
-      </Tab.Container>
+            </Tab>
+
+            <Tab eventKey="arabic" className="border-0 " title="العربية">
+                <ArabicForm/>
+            </Tab>
+
+          </Tabs>
+        </Container>
     )
   }
 }
